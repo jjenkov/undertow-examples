@@ -16,4 +16,7 @@ If you have any suggestions or request, open an issue, and I will see if I think
 Undertow tutorial :-)
 
 
+# Undertow Examples
+
+- [SimpleHttpServer](https://github.com/jjenkov/undertow-examples/blob/main/src/main/java/com/jenkov/undertowexamples/SimpleHttpServer.java)
 
