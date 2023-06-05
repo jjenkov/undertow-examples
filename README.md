@@ -22,6 +22,7 @@ Undertow tutorial :-)
 - [SimpleHandler](https://github.com/jjenkov/undertow-examples/blob/main/src/main/java/com/jenkov/undertowexamples/SimpleHandler.java)
 - [RoutingHandler](https://github.com/jjenkov/undertow-examples/blob/main/src/main/java/com/jenkov/undertowexamples/RoutingHandler.java)
 - [NotFound404Handler](https://github.com/jjenkov/undertow-examples/blob/main/src/main/java/com/jenkov/undertowexamples/NotFound404Handler.java)
+- [HttpHeadersHandler](https://github.com/jjenkov/undertow-examples/blob/main/src/main/java/com/jenkov/undertowexamples/HttpHeadersHandler.java)
 
 
 
