@@ -3,6 +3,7 @@ package com.jenkov.undertowexamples;
 import io.undertow.server.HttpHandler;
 import io.undertow.server.HttpServerExchange;
 import io.undertow.util.HeaderValues;
+import io.undertow.util.HttpString;
 
 public class HttpHeadersHandler implements HttpHandler {
     @Override
@@ -19,6 +20,9 @@ public class HttpHeadersHandler implements HttpHandler {
         for(int i=0; i < acceptHeader.size(); i++) {
             System.out.println("" + i + " : " + acceptHeader.get(i));
         }
+
+        String mimeType = "text/html";
+        httpServerExchange.getResponseHeaders().put(HttpString.tryFromString("Content-Type"), mimeType);
 
         httpServerExchange
                 .getResponseSender()
