@@ -1,0 +1,2 @@
+This is a static text file - to be served using the FileHandler.
+This file has been updated.
