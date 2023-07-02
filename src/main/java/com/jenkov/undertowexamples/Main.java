@@ -7,7 +7,7 @@ import java.io.IOException;
 /**
  * This is just a utility Main class - to debug stuff that doesn't work - for the other examples.
  * It has no other purpose besides that.
- * 
+ *
  */
 public class Main {
 

@@ -14,6 +14,7 @@ The examples in this repository are matching the Undertow tutorial found here:
 - [RoutingHandler](https://github.com/jjenkov/undertow-examples/blob/main/src/main/java/com/jenkov/undertowexamples/RoutingHandler.java)
 - [NotFound404Handler](https://github.com/jjenkov/undertow-examples/blob/main/src/main/java/com/jenkov/undertowexamples/NotFound404Handler.java)
 - [HttpHeadersHandler](https://github.com/jjenkov/undertow-examples/blob/main/src/main/java/com/jenkov/undertowexamples/HttpHeadersHandler.java)
+- [FileHandler](https://github.com/jjenkov/undertow-examples/blob/main/src/main/java/com/jenkov/undertowexamples/FileHandler.java)
 
 
 ## Contributions
