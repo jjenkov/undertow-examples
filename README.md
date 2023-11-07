@@ -1,5 +1,5 @@
 # undertow-examples
-Examples of using the Undertow Java web server
+Examples of using the Undertow Java web server - the web server used inside the JBoss Wildfly application server.
 
 ## Undertow Tutorial
 The examples in this repository are matching the Undertow tutorial found here:
