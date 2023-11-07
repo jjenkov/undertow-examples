@@ -19,6 +19,8 @@ public class UndertowHttpServer {
         System.out.println("ip address: " + ipAddress);
         System.out.println("OS        : " + operatingSystem);
 
+        //SSLUtil.setDownloadSslContext();
+
         System.out.println("Undertow starting");
 
         System.out.println("Building Undertow server");
@@ -29,7 +31,9 @@ public class UndertowHttpServer {
                 .addHttpListener(tcpPort, ipAddress)
                 //.addHttpListener(80, "ec2-52-17-198-128.eu-west-1.compute.amazonaws.com")
                 //.setHandler(new WebHandler(cmsHandler))
-                .setHandler(new SimpleHandler())
+                //.setHandler(new SimpleHandler())
+                //.setHandler(new FileHandler("assets/"))
+                .setHandler(new DownloadProxyHandler())
                 .build();
 
         System.out.println("Undertow started");
